@@ -87,13 +87,16 @@ body, html {
     background-color: aquamarine;
 }
 
-.content__section-name {
-    display: flex;
-    justify-content: center;
+.content__section {
     margin-top: 10mm;
 }
 
-.content__section-name-profile-icon {
+.content__section-name {
+    display: flex;
+    justify-content: center;
+}
+
+.content__section-name-icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,4 +114,6 @@ body, html {
     margin: 0;
 }
 
-.content__section-about-me {}
+.content__section-header-wrapper {
+    display: flex;
+}
