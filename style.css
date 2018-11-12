@@ -7,13 +7,12 @@ body, html {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    /* justify-content: center; */
     width: 80mm;
-    border-right: solid black 1mm;
     height: 296mm;
     position: absolute;
     top: 0;
     left: 0;
+    font-weight: bold;
 }
 
 .left-sidebar__profile-image {
@@ -32,7 +31,7 @@ body, html {
     display: flex;
     align-items: center;
     margin-top: 5mm;
-    font-size: 15mm;
+    font-size: 5mm;
     color: darkblue;
 }
 
@@ -41,7 +40,7 @@ body, html {
     width: 4mm;
     background-color: darkblue;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
 }
 
 .left-sidebar__section-header {
@@ -61,10 +60,55 @@ body, html {
 }
 
 .section__list-item {
-    padding: 1mm 0;
+    padding: 1.35mm 0;
 }
 
 .section__list-item--justify {
     display: flex;
     justify-content: space-between;
 }
+
+.section__list-item--justify-left {
+    text-align: left;
+}
+
+.section__list-item--justify-right {
+    text-align: right;
+}
+
+/* main page */
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 80mm;
+    width: 130mm;
+    height: 296mm;
+    background-color: aquamarine;
+}
+
+.content__section-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 10mm;
+}
+
+.content__section-name-profile-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15mm;
+    transform: rotate(90deg);
+}
+
+.section-name__header {
+    padding: 0;
+    margin: 0;
+}
+
+.section-name__position {
+    padding: 0;
+    margin: 0;
+}
+
+.content__section-about-me {}
