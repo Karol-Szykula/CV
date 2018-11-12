@@ -1,0 +1,49 @@
+body, html {
+    font-family: Sans-Serif;
+}
+
+.left-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70mm;
+    border-right: solid black 1mm;
+    height: 296mm;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.left-sidebar__profile-image {
+    margin-top: 10mm;
+    display: flex;
+    height: auto;
+    max-width: 55mm;
+    border-radius: 50%;
+}
+
+.left-sidebar__main-list-item {
+    font-size: 36px;
+    line-height: 36px;
+    /*line-height: 18px;*/
+    color: darkblue;
+}
+
+.left-sidebar__main-list-span {
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.left-sidebar__inner-list {
+    list-style: none;
+    font-size: 20px;
+    margin-left: -15mm;
+}
+
+.dot {
+    height: 2mm;
+    width: 2mm;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
