@@ -162,17 +162,29 @@ body, html {
 
 .content__section-skills-wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
 }
 
-/* .content__section-skills {
+.content__section-skills-header {
+    display: flex;
+    justify-content: center;
+}
+
+.content__section-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.content__skill {
     display: flex;
     flex-direction: column;
-    width: 100%;
-} */
+    align-items: center;
+    padding: 2mm;
+}
 
-.content__section-efficiently {
-    display: flex;
+.content__skill-icon {
+    width: 7mm;
+    height: 7mm;
     justify-content: center;
 }
