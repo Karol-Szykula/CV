@@ -160,7 +160,19 @@ body, html {
     padding-top: 3mm;
 }
 
-/* .content__section-left-decoration-head {
+.content__section-skills-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* .content__section-skills {
     display: flex;
     flex-direction: column;
+    width: 100%;
 } */
+
+.content__section-efficiently {
+    display: flex;
+    justify-content: center;
+}
