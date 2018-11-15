@@ -86,6 +86,12 @@ body, html {
     font-size: 3.8mm;
 }
 
+.section__hobbies-icon{
+    padding-left: 1mm;
+    height: 4mm;
+    width: 4mm;
+}
+
 /* main page */
 
 .content {
