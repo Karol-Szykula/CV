@@ -13,6 +13,7 @@ body, html {
     top: 0;
     left: 0;
     font-weight: bold;
+    background-color: aquamarine;
 }
 
 .left-sidebar__profile-image {
@@ -93,7 +94,6 @@ body, html {
     left: 80mm;
     width: 130mm;
     height: 296mm;
-    background-color: aquamarine;
 }
 
 .content__section-name {
@@ -139,6 +139,11 @@ body, html {
 .content__section-body-text {
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.content__section-body-faculty {
+    font-weight: bold;
 }
 
 .content__section-left-decoration-line {
