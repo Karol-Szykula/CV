@@ -45,7 +45,7 @@ body, html {
 
 .left-sidebar__section-header {
     padding-left: 3mm;
-    font-size: 8mm;
+    font-size: 6mm;
     vertical-align: top;
     margin: 0;
 }
@@ -55,7 +55,7 @@ body, html {
     padding-left: 4mm;
     margin: 0;
     list-style: none;
-    font-size: 4.5mm;
+    font-size: 4mm;
     color: black;
 }
 
@@ -78,6 +78,11 @@ body, html {
 
 .section__list-item--justify-right {
     text-align: right;
+}
+
+.section__list-item--font-setting {
+    font-weight: normal;
+    font-size: 3.8mm;
 }
 
 /* main page */
