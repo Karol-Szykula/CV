@@ -214,3 +214,11 @@ body, html {
     height: 7mm;
     justify-content: center;
 }
+
+.clause {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3mm;
+    font-size: 3mm;
+}
