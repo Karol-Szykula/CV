@@ -7,7 +7,7 @@ body, html {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 80mm;
+    width: 90mm;
     height: 296mm;
     position: absolute;
     top: 0;
@@ -20,6 +20,7 @@ body, html {
     margin-top: 10mm;
     display: flex;
     height: auto;
+    max-height: 55mm;
     max-width: 55mm;
     border-radius: 50%;
 }
@@ -103,8 +104,8 @@ body, html {
 .content {
     position: absolute;
     top: 0;
-    left: 80mm;
-    width: 130mm;
+    left: 95mm;
+    width: 110mm;
     height: 296mm;
 }
 
@@ -128,8 +129,8 @@ body, html {
 }
 
 .content__section {
-    margin-top: 5mm;
-    padding: 2mm;
+    margin-top: 4mm;
+    padding: 1mm;
 }
 
 .content__section-header {
